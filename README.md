@@ -64,12 +64,12 @@ retaining responsibility for understanding and testing the result.
 
 ## Submission checklist
 
-- [ ] Task 1 completed and the original defect was reproduced and fixed.
-- [ ] Tasks 2–4 completed and tested.
-- [ ] Boundary and invalid-input cases tested.
-- [ ] No unnecessary external dependencies added.
-- [ ] No persistent storage added.
-- [ ] Code remains understandable and modular.
+- [x] Task 1 completed and the original defect was reproduced and fixed.
+- [x] Tasks 2–4 completed and tested.
+- [x] Boundary and invalid-input cases tested.
+- [x] No unnecessary external dependencies added.
+- [x] No persistent storage added.
+- [x] Code remains understandable and modular.
 - [ ] Complete LLM chat-history link included.
 
 ## Folder structure
@@ -88,6 +88,42 @@ scenario-07-battleship/
 
 Submission is only the following three things:
 
-- [ ] A 10-second video of gameplay **before** your changes, showing the bug/broken behavior
-- [ ] A 10-second video of gameplay **after** your changes, showing the bug fixed and the new features working
+- [x] A 10-second video of gameplay **before** your changes, showing the bug/broken behavior
+- [x] A 10-second video of gameplay **after** your changes, showing the bug fixed and the new features working
 - [ ] The Chat/LLM used page link, with the complete chat history
+
+## Completed lab implementation
+
+Tasks 1–4 are implemented. Internal coordinates are zero-based `(row, column)` tuples;
+terminal input/output uses `1–6`. Each side has three ships of lengths 3, 2, and 1.
+Shots update the target board, track individual damage, reject repeats, and produce
+one outcome message. The AI follows hits with nearby untried cells and handles
+exhaustion. Both fleets can win. Enter `q` to quit.
+
+Run the game and the 21 behavioral regression tests from this directory:
+
+```bash
+python main.py
+python -m unittest -v
+```
+
+No game dependencies or persistent storage were added. The original files remain
+in this repository's Git history; the changes retain the board/AI/game modules.
+
+### Lab-4 submission
+
+- [Report (PDF)](Lab-4/PES1UG24CS145_SE_Lab4.pdf)
+- [Report (DOCX)](Lab-4/PES1UG24CS145_SE_Lab4.docx)
+- [Before gameplay — 10 seconds](Lab-4/Videos/before_gameplay.mp4)
+- [After gameplay — 10 seconds](Lab-4/Videos/after_gameplay.mp4)
+- [Chat-history export (PDF)](Lab-4/PES1UG24CS145_SE_Lab4_Chat_History.pdf)
+- [Chat-history export (DOCX)](Lab-4/PES1UG24CS145_SE_Lab4_Chat_History.docx)
+- [Updated code snapshot](Lab-4/Updated_Code)
+- [Test results](Lab-4/Evidence/tests.txt)
+- [Original defect reproduction](Lab-4/Evidence/original_defects.txt)
+
+The videos capture actual seeded pseudo-terminal sessions rendered as terminal
+frames; both last exactly 10 seconds. Ordinary gameplay uses unseeded randomness.
+The before video was captured before editing the source. Chat exports include the
+available user/assistant conversation through their recorded export cutoff. A
+separate ChatGPT/Codex platform share URL has not been provided.

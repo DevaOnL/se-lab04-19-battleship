@@ -1,0 +1,56 @@
+Battleship — three ships per fleet (lengths 3, 2, 1).
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 6
+Your ship cells remaining: 6
+> 3,3
+You fired at 3,3: HIT!
+AI fired at 4,3: MISS!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 5
+Your ship cells remaining: 6
+> 3,3
+Already fired there.
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 5
+Your ship cells remaining: 6
+> 3,4
+You fired at 3,4: HIT!
+AI fired at 2,4: HIT!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 4
+Your ship cells remaining: 5
+> 3,5
+You fired at 3,5: SUNK! (Cruiser)
+AI fired at 1,4: MISS!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 3
+Your ship cells remaining: 5
+> 1,1
+You fired at 1,1: MISS!
+AI fired at 3,4: MISS!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 3
+Your ship cells remaining: 5
+> 5,1
+You fired at 5,1: HIT!
+AI fired at 2,3: HIT!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 2
+Your ship cells remaining: 4
+> 5,2
+You fired at 5,2: SUNK! (Destroyer)
+AI fired at 2,5: MISS!
+
+Fire at row,col (1-6); q to quit.
+Enemy ship cells remaining: 1
+Your ship cells remaining: 4
+> 1,6
+You fired at 1,6: SUNK! (Patrol boat)
+You sank the fleet. You win!

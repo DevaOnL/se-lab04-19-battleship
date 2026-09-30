@@ -1,0 +1,26 @@
+test_corner_targets_and_stale_candidates (test_battleship.AITests.test_corner_targets_and_stale_candidates) ... ok
+test_hit_prioritizes_untried_neighbor (test_battleship.AITests.test_hit_prioritizes_untried_neighbor) ... ok
+test_no_repeats_and_exhaustion (test_battleship.AITests.test_no_repeats_and_exhaustion) ... ok
+test_selection_and_feedback_are_silent (test_battleship.AITests.test_selection_and_feedback_are_silent) ... ok
+test_size_validation (test_battleship.AITests.test_size_validation) ... ok
+test_sunk_clears_obsolete_targets (test_battleship.AITests.test_sunk_clears_obsolete_targets) ... ok
+test_board_operations_are_silent (test_battleship.BoardTests.test_board_operations_are_silent) ... ok
+test_empty_board_is_not_a_completed_game (test_battleship.BoardTests.test_empty_board_is_not_a_completed_game) ... ok
+test_every_cell_hit_or_miss (test_battleship.BoardTests.test_every_cell_hit_or_miss) ... ok
+test_individual_damage_and_complete_fleet (test_battleship.BoardTests.test_individual_damage_and_complete_fleet) ... ok
+test_invalid_coordinates_do_not_consume_shots (test_battleship.BoardTests.test_invalid_coordinates_do_not_consume_shots) ... ok
+test_invalid_ship_placements_are_atomic (test_battleship.BoardTests.test_invalid_ship_placements_are_atomic) ... ok
+test_no_placement_after_shooting (test_battleship.BoardTests.test_no_placement_after_shooting) ... ok
+test_repeated_hit_and_miss_do_not_mutate_state (test_battleship.BoardTests.test_repeated_hit_and_miss_do_not_mutate_state) ... ok
+test_ai_exhaustion_is_graceful (test_battleship.GameTests.test_ai_exhaustion_is_graceful) ... ok
+test_ai_hit_uses_exact_chosen_coordinate (test_battleship.GameTests.test_ai_hit_uses_exact_chosen_coordinate) ... ok
+test_ai_win_stops_game (test_battleship.GameTests.test_ai_win_stops_game) ... ok
+test_eof_and_keyboard_interrupt_quit (test_battleship.GameTests.test_eof_and_keyboard_interrupt_quit) ... ok
+test_invalid_input_and_quit_do_not_advance_turn (test_battleship.GameTests.test_invalid_input_and_quit_do_not_advance_turn) ... ok
+test_player_coordinates_repeat_and_one_feedback_per_shot (test_battleship.GameTests.test_player_coordinates_repeat_and_one_feedback_per_shot) ... ok
+test_player_win_stops_before_extra_ai_turn (test_battleship.GameTests.test_player_win_stops_before_extra_ai_turn) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.004s
+
+OK

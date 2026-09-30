@@ -1,0 +1,10 @@
+Original revision: 68e3f33
+Known occupied (2,2): True
+Known empty (0,0): False
+AI selected (1, 1) -> text 2,2 -> original game tested (2, 2)
+Expected hit: True Actual hit: False
+AI selected (0, 0) -> text 1,1 -> original game tested (1, 1)
+Expected hit: False Actual hit: True
+Recorded incoming AI shots: set()
+Repeat guard sees enemy shot (2,2): False
+

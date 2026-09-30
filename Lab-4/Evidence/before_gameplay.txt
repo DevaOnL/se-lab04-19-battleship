@@ -1,0 +1,23 @@
+Battleship
+
+Your shots are coordinates like 2,3.
+Ship cells remaining: 3
+> 3,3
+HIT!
+AI fired at 4,3
+
+Your shots are coordinates like 2,3.
+Ship cells remaining: 3
+> 3,3
+HIT!
+AI fired at 2,4
+
+Your shots are coordinates like 2,3.
+Ship cells remaining: 3
+> 1,1
+MISS!
+AI fired at 5,4
+
+Your shots are coordinates like 2,3.
+Ship cells remaining: 3
+> q
