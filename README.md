@@ -122,8 +122,9 @@ in this repository's Git history; the changes retain the board/AI/game modules.
 - [Test results](Lab-4/Evidence/tests.txt)
 - [Original defect reproduction](Lab-4/Evidence/original_defects.txt)
 
-The videos capture actual seeded pseudo-terminal sessions rendered as terminal
-frames; both last exactly 10 seconds. Ordinary gameplay uses unseeded randomness.
-The before video was captured before editing the source. Chat exports include the
+The replacement videos capture the actual VS Code integrated Bash terminal with
+the lab window’s dark theme, font, and prompt; both last exactly 10 seconds.
+Ordinary gameplay uses unseeded randomness. The before clip reruns the original
+source preserved before editing; the after clip runs the completed game. Chat exports include the
 available user/assistant conversation through their recorded export cutoff. A
 separate ChatGPT/Codex platform share URL has not been provided.

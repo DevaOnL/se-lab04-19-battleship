@@ -17,9 +17,10 @@ From `Updated_Code`, run `python main.py` to play and `python -m unittest -v`
 to verify the implementation. This is an exact submission snapshot of the root
 Python modules and requirements file.
 
-Both videos were recorded from running game processes with RNG seed 7 to make the
-comparison reproducible. Input is automated; output is actual gameplay. The before
-recording predates code edits. The after recording includes repeat rejection, hits,
+Both replacement videos capture actual gameplay in the VS Code integrated Bash
+terminal, matching the lab window’s dark theme, font, prompt, and controls. RNG seed
+7 makes the comparison reproducible. Input is automated. The before clip reruns
+the original source preserved before code edits. The after clip includes repeat rejection, hits,
 a miss, an AI hit followed by adjacent targeting, sinking named ships, and victory.
 The game itself does not seed the RNG or write persistent data.
 
